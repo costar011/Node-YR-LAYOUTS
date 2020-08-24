@@ -1,0 +1,62 @@
+@import "./reset.css";
+
+body {
+  overflow: hidden;
+}
+
+.top {
+  display: flex;
+}
+
+.top .top__col1 {
+  width: 1500px;
+  height: 10vh;
+
+  background-color: burlywood;
+
+  flex-direction: row;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+}
+
+.left .left__col1-1 {
+  width: 85px;
+  height: 40vh;
+
+  background-color: cadetblue;
+}
+
+.left .left__col1-2 {
+  width: 600px;
+  height: 40vh;
+
+  background-color: chartreuse;
+
+  flex-direction: row;
+}
+
+.left .left__col1-3 {
+  width: 600px;
+  height: 40vh;
+
+  background-color: goldenrod;
+
+  flex-direction: row;
+
+  margin-top: 287px;
+}
+
+.right {
+  display: flex;
+}
+
+.right .right__col1-1 {
+  width: 500px;
+  height: 50vh;
+
+  background-color: green;
+  flex-direction: row;
+}
