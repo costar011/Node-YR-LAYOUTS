@@ -4,11 +4,42 @@ body {
   overflow: hidden;
 }
 
-.main {
+.top {
   display: flex;
   flex-direction: column;
 }
 
-.btm {
+.top .top__col1 {
+  width: 1500px;
+  height: 10vh;
+
+  background-color: greenyellow;
+}
+
+.top .top__col1-1 {
+  width: 90px;
+  height: 100vh;
+
+  background-color: beige;
+}
+
+.main {
   display: flex;
+  flex-direction: column;
+
+  margin-left: 90px;
+}
+
+.main .main__col1 {
+  width: 600px;
+  height: 45vh;
+
+  background-color: blueviolet;
+}
+
+.main .main__col2 {
+  width: 600px;
+  height: 45vh;
+
+  background-color: darkblue;
 }
